@@ -9,13 +9,13 @@ const config = {
   title: 'PcapPlusPlus',
   tagline:
     'A multi-platform C++ library for capturing, parsing and crafting of network packets. It is designed to be efficient, powerful and easy to use.',
-  url: 'https://pcapplusplus.github.io',
+  url: 'https://webdriverplusplus.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo/logo_icon_large.ico',
   organizationName: 'seladb',
-  projectName: 'pcapplusplus.github.io',
+  projectName: 'webdriverplusplus.github.io',
   trailingSlash: false,
 
   presets: [
@@ -26,7 +26,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/'
+            'https://github.com/PcapPlusPlus/webdriverplusplus.github.io/edit/master/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
@@ -199,7 +199,7 @@ const config = {
               },
               {
                 label: 'Web-site GitHub Repo',
-                href: 'https://github.com/PcapPlusPlus/pcapplusplus.github.io'
+                href: 'https://github.com/PcapPlusPlus/webdriverplusplus.github.io'
               }
             ]
           }
